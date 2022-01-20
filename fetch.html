@@ -9,7 +9,7 @@
     <script>
         const url = 'https://api.github.com/users/redahm/repos';
 
-        fetch(url)
+        fetch(Wurl)
         .then(response => response.json())
         .then(repos => {
             console.log(repos);
